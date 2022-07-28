@@ -1,8 +1,9 @@
 import { GraphFilter } from './interfaces';
 
 const createFilterSettings = (code:string):GraphFilter => {
+  const codeString = code.toUpperCase();
   const filterSettings:GraphFilter = {
-    filter: { code: { eq: code.toUpperCase() } },
+    filter: { code: { eq: codeString } },
   };
   return filterSettings;
 };

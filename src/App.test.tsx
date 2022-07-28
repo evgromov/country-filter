@@ -43,7 +43,7 @@ describe('Redux tests', () => {
 
 describe('GraphQl tests', () => {
   it('check create filter function (for GraphQl request)', () => {
-    expect(createFilterSettings('EE')).toEqual({
+    expect(createFilterSettings('ee')).toEqual({
       filter: { code: { eq: 'EE' } },
     });
   });
