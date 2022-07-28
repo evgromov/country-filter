@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgba(112, 76, 182, 0.1) ;
+  align-items: center;
+  padding: 30px;
+}
+
+.App-header p {
+  cursor: default;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.App-main {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  text-transform: uppercase;
+}
+
+.App-main_block {
+  height: 40%;
+  margin: 0 auto;
+  display: flex;
+  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fbfbff;
+  border-radius: 20px;
+}
+
+.ant-empty-normal {
+  margin: 0 !important;
+}
+.ant-empty-image {
+  display: none;
+}
+
+@media screen and (max-width: 467px) {
+  .App-main_block {
+    padding: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .button {
+    padding-top: 20px;
+  }
+}
+
+
