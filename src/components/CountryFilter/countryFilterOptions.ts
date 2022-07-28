@@ -2,7 +2,7 @@ import { GraphFilter } from './interfaces';
 
 const createFilterSettings = (code:string):GraphFilter => {
   const filterSettings:GraphFilter = {
-    filter: { code: { eq: code } },
+    filter: { code: { eq: code.toUpperCase() } },
   };
   return filterSettings;
 };
