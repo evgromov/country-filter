@@ -26,11 +26,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 In the project directory, you can run:
 ### `npm test`
 
-Launches the test runner in the interactive watch mode from App.test.tsx file.
+Launches the jest-tests from App.test.tsx file.
 
 ### `npm run lint`
 
-Check eslint issues in project's code.
+Check eslint issues in project's code and npm run lint-fix if need to fix.
 
 ### `npm run build`
 
